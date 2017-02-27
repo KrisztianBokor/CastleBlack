@@ -1,0 +1,170 @@
+html, body {
+	background-color: lightgrey;
+}
+
+html {
+	display: block;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+header {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+header h2.quote {
+    text-align: right;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    float: right;
+    font-style: italic;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+div {
+    display: block;
+}
+
+ul {
+    background-color: black;
+    list-style-type: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px;
+    z-index: 1;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown a {
+    background-color: black;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 15px;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    min-width: 160px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+}
+
+a:hover {
+	background-color: red;
+}
+
+section {
+    display: block;
+    background-color: white;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 16px 0px;
+    z-index: 1;
+}
+
+section h1 {
+    padding-top: 30px;
+    font-family: Georgia;
+    margin: auto 15px;
+}
+
+section select {
+    background-color: black;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+select option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+section button {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Georgia;
+    cursor: pointer;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+section input {
+    font-style: italic;
+    min-width: 200px;
+    margin: 30px 10px 30px 30px;
+}
+
+section p {
+    text-align: center;
+}
+
+section .addStatusContainer {
+    text-align: center;
+    margin: 0px auto 30px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Castle Black</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	
+	<!-- Header : tittle and quote  -->
+	<header>
+		<h1>Castle Black</h1>
+		<h2 class="quote">"I am the shield that guards the realms of men"</h1>
+	</header>
+
+	<!-- Menu -->
+	<div class = "menu">
+		<ul>
+			<!-- Projects -->
+			<div class = "dropdown">
+				<a id = "projects"> Projects </a>
+				<!-- dropdown -->
+				<div class = "dropdown-content">
+					<a id = "addProject"> Add </a>
+					<a id = "removeProject"> Remove </a>
+				</div>
+			</div>
+
+			<!-- Developers -->
+			<div class = "dropdown">
+				<a id = "developers"> Developers </a>
+				<!-- dropdown -->
+				<div class = "dropdown-content">
+				    <a id = "addDeveloper"> Add </a>
+				    <a id = "removeDeveloper"> Remove </a>
+				</div>
+			</div>
+
+			<!-- Status -->
+			<div class = "dropdown">
+				<a id = "status"> Status </a>
+				<!-- dropdown -->
+				<div class = dropdown-content>
+					<a id = "addStatus"> Add </a>
+					<a id = "deleteStatus"> Delete </a>
+					<a id = "daySummary"> Day Summary </a>
+					<a id = "projectSummary"> Project Summary </a>
+					<a id = "developerSummary"> Developer Summary </a>
+				</div>
+			</div>
+		</ul>
+	</div>
+
+	<!-- Section : content -->
+	<section>
+	</section>
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/developer.js"></script>
+	<script src="js/project.js"></script>
+	<script src="js/status.js"></script>
+	<script src="js/developerList.js"></script>
+	<script src="js/projectList.js"></script>
+	<script src="js/statusList.js"></script>
+	<script src="js/developerController.js"></script>
+	<script src="js/projectController.js"></script>
+	<script src="js/controller.js"></script>
+</body>
+</html>
